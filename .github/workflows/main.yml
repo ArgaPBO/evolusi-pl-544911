@@ -1,0 +1,12 @@
+name: GitHub Actions
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  GitHub-Actions-status:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🍏 This job's status is ${{ job.status }}."
+  Print-Arga:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Arga"
